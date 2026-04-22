@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Simple form</title>
+		<meta charset="utf-8"></meta>
+		<style type="text/css"></style>
+		<link rel="stylesheet" type="text/css" href="../css/style_2.css">
+		<link rel="icon" type="text" href="https://upload.wikimedia.org/wikipedia/commons/8/85/Smiley.svg">
+	</head>
+	<body>
+		<form name="simple_form"  method=POST action="../actions/action_input_1.php">
+			<div class="form_uname">
+					<b>Введите ваше имя:</b>
+					<p>
+						<input type="text" name="uname" size="40%">
+					</p>
+			</div>
+			<div class="form_browser">
+				<b>Какой браузер вы используете:</b>
+				<p><b><input type="radio" name="browser" value="Firefox"> Firefox</b></p>
+				<p><b><input type="radio" name="browser" value="Chrome"> Chrome browser</b></p>
+				<p><b><input type="radio" name="browser" value="Opera"> Opera</b></p>
+			</div>
+			<div class="form_comment">
+				<b>Оставьте комментарий:</b>
+				<p>
+					<textarea name="comment" cols="40" rows="3"></textarea>
+					<p>
+						<button type="submit" name="submit">Отправить</button>
+						<button type="reset" name="reset">Очистить</button>
+					</p>
+				</p>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/style_3.css">
+		<title>Authorisation form</title>
+	</head>
+	<body>
+		<form class='id_form' action='../actions/action_form_3.php' method='post'>
+			<div>
+				<p><b>Укажите ваше ФИО:</b></p>
+				<input class="fio" type="text" name="fio" placeholder="Фамилия Имя Отчество"></input>
+			</div>
+			<div>
+				<p><b>Укажите пол:</b></p>
+				<input type="radio" name="pol">М</input>
+				<input type="radio" name="pol">Ж</input>
+			</div>
+			<div>
+				<textarea class="comment" name="comment" cols="40" rows="3"></textarea>
+					<p>
+						<button type="submit" name="submit">Отправить</button>
+						<button type="reset" name="reset">Очистить</button>
+					</p>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.id_form {
+    width: 300px; 
+    padding: 32px;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;  
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+
+.fio {
+	width: 95%;
+}
+
+.btn {
+	width: 170px;
+}
+
+.comment,
+.uname,
+.email,
+.passwd,
+.cpasswd {
+	width: 100%;
+}
+
+.register_form {
+	width: 350px; 
+    padding: 32px;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;  
+    letter-spacing: 1px; 
+}

@@ -1,0 +1,55 @@
+body {
+	background-color: lightskyblue;
+}
+
+div.some_text {
+	color: black;
+	font: verdana;
+	outline: 0px;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+div.color_head_1 {
+	color: blue;
+	font: verdana;
+	padding: 0px 20px;
+}
+
+div.color_head_2 {
+	color: green;
+	font: verdana;
+	padding: 0px 35px;
+}
+
+div.color_head_3 {
+	color: orange;
+	font: verdana;
+	padding: 0px 50px;
+}
+
+div.color_head_4 {
+	color: yellow;
+	font: verdana;
+	padding: 0px 65px;
+}
+
+div.color_head_5 {
+	color: black;
+	font: verdana;
+	padding: 0px 80px;
+}
+
+div.color_head_6 {
+	color: red;
+	font: verdana;
+	padding: 0px 95px;
+}
+
+div.box {
+	content: url("https://image.flaticon.com/icons/png/512/65/65842.png");
+	width: 10%;
+	height: 10%;
+	padding: 0px 95px;
+}
